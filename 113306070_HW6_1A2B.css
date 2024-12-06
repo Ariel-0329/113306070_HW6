@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #ffe6e6; /* 淺粉色背景 */
+  color: #333; /* 深灰色文字 */
+}
+
+h1 {
+  font-size: 2em;
+  color: #f08080; /* 粉紫色標題 */
+}
+
+p {
+  font-size: 1.2em;
+}
+
+input, button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #fa8072; /* 粉紫色邊框 */
+  border-radius: 20px; /* 圓形框 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 輕微陰影 */
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  background-color: #f08080; /* 粉紫色背景 */
+  color: #fff; /* 白色文字 */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b03585; /* 深色背景，hover效果 */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #555; /* 中灰色文字 */
+}
+
+#result p {
+  margin: 5px 0;
+}
